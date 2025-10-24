@@ -52,6 +52,7 @@ Program ini adalah aplikasi **Absensi Karyawan** berbasis **Java Desktop (NetBea
 4. **Konfigurasi Koneksi Database**
    - Cari file koneksi (misalnya Koneksi.java atau sejenisnya).
    - Sesuaikan pengaturan berikut dengan lingkungan lokal Anda:
+     ```Contoh:
        String url  = "jdbc:mysql://localhost:3306/db_absensi_karyawan";
        String user = "root";
        String pass = "";
