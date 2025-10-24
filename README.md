@@ -41,3 +41,19 @@ Program ini adalah aplikasi **Absensi Karyawan** berbasis **Java Desktop (NetBea
 1. **Clone atau Download Repository**
    ```bash
    git clone https://github.com/username/AbsensiKaryawan.git
+2. **Buka Project di NetBeans**
+   - Buka NetBeans.
+   - Pilih File > Open Project.
+   - Arahkan ke folder hasil clone atau folder project lokal.
+3. **Import Database**
+   - Buka MySQL Workbench atau phpMyAdmin.
+   - Buat database baru, misalnya db_absensi_karyawan.
+   - Import file SQL yang disediakan di folder database.
+4. **Konfigurasi Koneksi Database**
+   - Cari file koneksi (misalnya Koneksi.java atau sejenisnya).
+   - Sesuaikan pengaturan berikut dengan lingkungan lokal Anda:
+       String url  = "jdbc:mysql://localhost:3306/db_absensi_karyawan";
+       String user = "root";
+       String pass = "";
+5. **Jalankan Aplikasi**
+   - Klik kanan project → Run di NetBeans.
